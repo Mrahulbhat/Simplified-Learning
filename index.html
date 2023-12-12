@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Simplified Learning</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="icon" href="images/PhotoRoom-20231020_232757.png">
+        <script src="https://kit.fontawesome.com/cec115b967.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1>Hi, My name is<span> Rahul</span><br>and I am a passionate</h1>
+                <span id="element"></span>
+            </div>
+            <div>
+                <a class="btn-tocontact" onclick="SubmitEvent" href="#loginscreen">Get Started</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <style>
+        .error-message {
+            margin-top: 10px;
+            color: red;
+        }
+
+        .success-message {
+            margin-top: 10px;
+            color: rgb(9, 248, 9);
+            font-weight: bolder;
+        }
+    </style>
+        <div class="pass" id="loginscreen">
+            <div class="password-container">
+                <form class="password-form" onsubmit="login(event)">
+                    <h2 style="margin-bottom: 20px;"> Simplified - Learning . io </h2>
+                    <input type="password" id="password" placeholder="Enter password" name="password" required>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="message"></p>
+            </div>
+        </div>
+    
+        <script>
+            function login(event) {
+                event.preventDefault();
+    
+                var passcode = document.getElementById("password").value;
+                var mypass = "admin";
+                var messageElement = document.getElementById("message");
+    
+                if (passcode === mypass) {
+                    messageElement.textContent = "Login Successful!";
+                    messageElement.className = "success-message";
+                    setTimeout(function() {
+                    window.location.href = "https://mrahulbhat.github.io/Simplified-Learning/";
+                    }, 800); // Redirect after 2 seconds (adjust as needed)
+                } else {
+                    messageElement.textContent = "Incorrect Password";
+                    messageElement.className = "error-message";
+                }
+            }
+        </script>
+    </body>
+    </html>
+    
+     
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        
+    </script>
+  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+  </script>
+  <script>
+    var typed = new Typed('#element', {
+        strings: ['Full Stack Web Developer', 'Software Developer', 'Android App Developer'],
+        typeSpeed: 35,
+        loop: true // Add this option to loop the animation
+    });
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+
+<!------------------Contact-------------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZWfczdgqGWvTgPMmvDcCnqSJQdhgcRNmJSZNSlTQLNSSsvxmrlJZMVJDxKSVWVHXBGv" target="_blank">rahulbhat5122@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>+91 9019721662</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rxhul_bhxt/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/m-rahul-bhat/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024819263426" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Mrahulbhat?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+               
+           
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"> </i>  M. Rahul Bhat</p>
+    </div>
+</div>
+   
+</body>
+</html>
+
+        

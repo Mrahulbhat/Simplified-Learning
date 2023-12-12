@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Simplified Learning</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/PhotoRoom-20231020_232757.png">
+        <script src="https://kit.fontawesome.com/cec115b967.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+  
+        
+    
+    <!--------------services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="font-weight: 500;"><center>CATEGORIES</center></h1><br><hr>
+            <div class="services-list">
+                <a onclick="SubmitEvent"  href="dsa.html" style="background: linear-gradient(315deg, #63034b 0%, #f520a3 74%);">
+                    <h2><i class="fa-solid fa-code"></i><br><br>Data Structures and Algorithms</h2>
+                </a>
+
+                <a onclick="SubmitEvent" href="lab.html" style="background: linear-gradient(315deg, #532005 0%, #f52020 74%);">
+                    <h2><i class="fa-solid fa-laptop"></i><br><br>Aptitude Problems</h2>
+                </a>
+
+                <a onclick="SubmitEvent"  href="notes.html">
+                    <h2><i class="fa-solid fa-book-open"></i><br><br>Notes/Reference Materials for Placement </h2>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+
+<!------------------Contact-------------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRZWfczdgqGWvTgPMmvDcCnqSJQdhgcRNmJSZNSlTQLNSSsvxmrlJZMVJDxKSVWVHXBGv" target="_blank">rahulbhat5122@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>+91 9019721662</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rxhul_bhxt/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/m-rahul-bhat/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024819263426" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Mrahulbhat?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+               
+           
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"> </i>  M. Rahul Bhat</p>
+    </div>
+</div>
+<!--------------Script------------------------>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        
+    </script>
+  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+  </script>
+  <script>
+    var typed = new Typed('#element', {
+        strings: ['Full Stack Web Developer', 'Software Developer', 'Android App Developer'],
+        typeSpeed: 35,
+        loop: true // Add this option to loop the animation
+    });
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+
+   
+</body>
+</html>
