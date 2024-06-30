@@ -129,12 +129,12 @@ body {
     display: block;
     margin-top: 30px;
     font-size: 17px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-right: 100px;
     background: #ff004f;
     width: fit-content;
     border: 1.5px solid white;
-    padding: 10px 20px;
+    padding: 2px 25px;
     border-radius: 2px;
     text-decoration: none;
     color: #fff;

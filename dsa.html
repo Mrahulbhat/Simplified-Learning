@@ -1,219 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Data Structures and Algorithms</title>
-        <link rel="icon" href="images/PhotoRoom-20231020_232757.png">
-        <link rel="stylesheet" href="dsa.css">
-        <script src="https://kit.fontawesome.com/cec115b967.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="services">
-            <div class="container">
-                <h1 class="sub-title" style="margin-top: 40px;"><center>Data Structures and Algorithms</center></h1><br><br><hr>
-                <div class="services-list">
-                    <a onclick="SubmitEvent" href="#basic_dsa" style="background:linear-gradient(315deg, #580749 0%, #b70ace 74%);">
-                        <h2><i class="fa-solid fa-code"></i><br><br>Basic DSA Algorithms<br><br></h2>
-                    </a>
-            
-                    <a onclick="SubmitEvent" href="#lab" style="background:linear-gradient(315deg, #582107 0%, #ce380a 74%);">
-                        <h2><i class="fa-brands fa-java"></i><br><br>Lab Programs<br><br></h2>
-                    </a>
-            
-                    <a onclick="SubmitEvent" href="#dsa_sheets" style="background:linear-gradient(315deg, #18420f 0%, #208108 74%);">
-                        <h2><i class="fa-brands fa-python"></i><br><br>DSA Sheets<br><br></h2>
-                    </a>
-                </div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Data Structures and Algorithms</title>
+    <link rel="icon" href="images/PhotoRoom-20231020_232757.png" />
+    <link rel="stylesheet" href="dsa.css" />
+    <script src="https://kit.fontawesome.com/cec115b967.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="margin-top: 40px">
+                <center>Data Structures and Algorithms</center>
+            </h1>
+            <br /><br />
+            <hr />
+            <div class="services-list">
+                <a onclick="SubmitEvent" href="#basic_dsa"
+                    style="background: linear-gradient(315deg, #580749 0%, #b70ace 74%)">
+                    <h2>
+                        <i class="fa-solid fa-code"></i><br /><br />Basic DSA
+                        Algorithms<br /><br />
+                    </h2>
+                </a>
+
+                <a onclick="SubmitEvent" href="#dsa_sheets"
+                    style="background: linear-gradient(315deg, #582107 0%, #ce380a 74%)">
+                    <h2>
+                        <i class="fa-brands fa-java"></i><br /><br />DSA Sheets<br /><br />
+                    </h2>
+                </a>
+
+                <a onclick="SubmitEvent" href="#lab"
+                    style="background: linear-gradient(315deg, #18420f 0%, #208108 74%)">
+                    <h2>
+                        <i class="fa-brands fa-python"></i><br /><br />Lab Programs
+                        <br /><br />
+                    </h2>
+                </a>
             </div>
-            
-            <div class="container">
-                <div class="services-list">
-                    <a onclick="SubmitEvent" href="#fraz" style="background: linear-gradient(315deg, rgb(71, 5, 5) 0%, rgb(224, 20, 20) 74%);" >
-                        <h2><i class="fa-solid fa-code"></i><br><br>Coming Soon....<br><br></h2>
-                    </a>
-            
-                    <a onclick="SubmitEvent" href="#python" style="background: linear-gradient(315deg, rgb(5, 52, 71) 0%, rgb(29, 121, 207) 74%);">
-                        <h2><i class="fa-solid fa-laptop"></i><br><br>Coming Soon....<br><br></h2>
-                    </a>
-            
-                    <a onclick="SubmitEvent" href="#dsa-apt" style="background:linear-gradient(315deg, rgb(107, 53, 3) 0%,rgb(168, 98, 5) 74%);">
-                        <h2><i class="fa-solid fa-book-open"></i><br><br>Coming Soon....<br><br></h2>
-                    </a>
-                </div>
-            </div>
-            
         </div>
-        
-        
 
+        <div class="container">
+            <div class="services-list">
+                <a onclick="SubmitEvent" href="#fraz" style="
+              background: linear-gradient(
+                315deg,
+                rgb(71, 5, 5) 0%,
+                rgb(224, 20, 20) 74%
+              );
+            ">
+                    <h2>
+                        <i class="fa-solid fa-code"></i><br /><br />Coming Soon....<br /><br />
+                    </h2>
+                </a>
 
+                <a onclick="SubmitEvent" href="#python" style="
+              background: linear-gradient(
+                315deg,
+                rgb(5, 52, 71) 0%,
+                rgb(29, 121, 207) 74%
+              );
+            ">
+                    <h2>
+                        <i class="fa-solid fa-laptop"></i><br /><br />Coming Soon....<br /><br />
+                    </h2>
+                </a>
 
-<!---------------------------------------- Basic DSA Algorithms--------------------------------->
+                <a onclick="SubmitEvent" href="#dsa-apt" style="
+              background: linear-gradient(
+                315deg,
+                rgb(107, 53, 3) 0%,
+                rgb(168, 98, 5) 74%
+              );
+            ">
+                    <h2>
+                        <i class="fa-solid fa-book-open"></i><br /><br />Coming
+                        Soon....<br /><br />
+                    </h2>
+                </a>
+            </div>
+        </div>
+    </div>
 
-            <div id="basic_dsa" class="fraz">
-                <br>
-                <h2 style="font-weight: 100;"><center><br>Basic Dsa Algorithms</center></h2>
-                    <div class="container">
-                        <div class="fraz-list">
-                            <div>
-                                <h3>Searching Algorithms</h3>
-                                <ol>
-                                    <li>Linear Search  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                    <li>Binary Search <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                    <li>Hashing</li>
-                                    
-                                </ol>
-                                <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" 
-                                href="https://drive.google.com/drive/folders/1P6mrCzXQuPoCWUDAqUUH4WKhszE9le8c">
-                                Drive Link for Searching Algorithms</a>
-                            <br><br>
-                        </div>
-        
-                        <div >
-                            <h3>Sorting Algorithms</h3>
-                                <ol>
-                                    <li>Insertion Sort  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i> </li>
-                                    <li>Bubble Sort  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                    <li>Quick Sort</li>
-                                    <li>Selection Sort</li>
-                                    <li>Merge Sort</li>                                  
-                                </ol>
-                                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
-                                     href="https://drive.google.com/drive/folders/1he9dlDke8x-nKSXOpj2UCRLOVbqPqsHF">
-                                     Drive Link - Sorting Algorithms</a>
-                                <br><br>
-                        </div>
-                    </div>                          
+    <!---------------------------------------- Basic DSA Algorithms--------------------------------->
+
+    <div id="basic_dsa" class="fraz">
+        <br />
+        <h2 style="font-weight: 100">
+            <center><br />Basic Dsa Algorithms</center>
+        </h2>
+        <div class="container">
+            <div class="fraz-list">
+                <div>
+                    <h3>Basic Searching Algorithms</h3>
+                    <ol>
+                        <li>
+                            Linear Search
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Binary Search
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>Hashing</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/1P6mrCzXQuPoCWUDAqUUH4WKhszE9le8c">
+                        View Solutions</a>
+                    <br /><br />
                 </div>
-                
-                <div class="container">
-                    <div class="fraz-list">
-                        <div>
-                            <h3>Basic Interview Questions</h3>
-                            <ol>
-                                <li>Factorial <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Palindrome <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Patterns ( * ) using Loops <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i> </li>
-                                
-                            </ol>
-                            <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" 
-                            href="">
-                            Drive Link for Searching Algorithms</a>
-                        <br><br>
-                    </div>
-    
-                    <div >
-                        <h3>Additional Practice Questions</h3>
-                            <ol>
-                                <li>Coming soon...</li>
-                                                                  
-                            </ol>
-                                <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
-                                 href="https://drive.google.com/drive/folders/1he9dlDke8x-nKSXOpj2UCRLOVbqPqsHF">
-                                 Drive Link - Coming Soon</a>
-                            <br><br>
-                    </div>
-                </div>                          
-            </div>
-            </div>
-            <!-------------------------------Lab Programs --------------------------------------------------------->
 
-        <div id="lab" class="fraz">
-            <br>
-            <h2 style="font-weight: 100;"><center><br>Lab Programs</center></h2>
-                <div class="container">
-                    <div class="fraz-list">
-                        <div>
-                            <h3>C Programming</h3>
-                            <ol>
-                                <li>Array operations  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Stack operations <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Queue operations</li>
-                            
-                            
-                            </ol>
-                            <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" 
-                            href="https://drive.google.com/drive/folders/1Tx05jZsBoS4G3NPMYwrMpVXpBaz0zA-N">
-                            Drive Link - C Programming Lab</a>
-                            <br><br>
-                        </div>
-    
-                        <div >
-                            <h3>Java Programming</h3>
-                                <ol>
-                                    
-                                </ol>
-                                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
-                                    href="">
-                                    Drive Link - Java Programming Lab</a>
-                                <br><br>
-                        </div>
-                    </div>
-                </div> 
-                <div class="container">
-                    <div class="fraz-list">
-                        <div>
-                            <h3>Python Programming</h3>
-                            <ol>
-                                
-                            </ol>
-                            <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" 
-                            href="">
-                            Drive Link - Python Lab</a>
-                            <br><br>
-                        </div>
-    
-                        <div >
-                            <h3>Angular JS Lab</h3>
-                                <ol>
-                                    
-                                </ol>
-                                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
-                                    href="">
-                                    Drive Link - Angular Js Lab</a>
-                                <br><br>
-                        </div>
-                    </div>
-                </div><br>               
+                <div>
+                    <h3>Basic Sort Algorithms</h3>
+                    <ol>
+                        <li>
+                            Insertion Sort
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Bubble Sort
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>Quick Sort</li>
+                        <li>Selection Sort</li>
+                        <li>Merge Sort</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/1he9dlDke8x-nKSXOpj2UCRLOVbqPqsHF">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
             </div>
+        </div>
 
-<!-------------------------------DSA Sheets --------------------------------------------------------->
+        <div class="container">
+            <div class="fraz-list">
+                <div>
+                    <h3>Basic Interview Questions</h3>
+                    <ol>
+                        <li>
+                            Factorial
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Palindrome
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Patterns ( * ) using Loops
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Fibonacci
+                        </li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/1idZWmniATTZICNAPG0o-w-G7EEm08gXd">
+                        View Solutions
+                    </a>
+                    <br /><br />
+                </div>
 
-        <div id="dsa_sheets" class="fraz">
-            <h2 style="font-weight: 100;"><center><br>Dsa Sheets</center></h2>
-                <div class="container">
-                    <div class="fraz-list">
-                        <div>
-                            <h3>Arrays (10) :</h3>
-                            <ol>
-                                <li>Two Sum  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Stock Selling   <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-                                <li>Leader of Array  <i class="fa-regular fa-circle-check" style="color: #3ce619;"></i></li>
-
-                            </ol>
-                            <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" 
-                            href="https://drive.google.com/drive/folders/108Dyvkvdf7yn6R3AdX9dBO0p_Q6onaSQ?usp=sharing">
-                            Drive Link for Arrays</a>
-                        <br><br>
-                    </div>
-    
-                    <div >
-                        <h3>Matrix (10)</h3>
-                            <ol>
-                               
-                            </ol>
-                                <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
-                                 href="https://drive.google.com/drive/folders/1ZzKyPuBjXZbQz_hsoBLeVKKOz3nIXliP">
-                                 Drive Link - Matrix</a>
-                            <br><br>
-                        </div>
-                    </div>
-                </div>                
+                <div>
+                    <h3>Additional Practice Questions</h3>
+                    <ol>
+                        <li>
+                            FizzBuzz - HackerRank
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/1s1xMgBXbWZzUnJc3BvugcoHZ5qCLbjwu">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
             </div>
-                                
-    
-    </body>
+        </div>
+    </div>
+
+    <!-------------------------------DSA Sheets --------------------------------------------------------->
+
+    <div id="dsa_sheets" class="fraz">
+        <h2 style="font-weight: 100">
+            <center><br />Dsa Sheets</center>
+        </h2>
+        <div class="container">
+            <div class="fraz-list">
+                <div>
+                    <h3>Arrays (10) :</h3>
+                    <ol>
+                        <li>
+                            Two Sum
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Stock Selling
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Leader of Array
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/108Dyvkvdf7yn6R3AdX9dBO0p_Q6onaSQ?usp=sharing">
+                        Drive Link for Arrays</a>
+                    <br /><br />
+                </div>
+
+                <div>
+                    <h3>Matrix (10)</h3>
+                    <ol>
+                        <li>Coming Soon</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank"
+                        href="https://drive.google.com/drive/folders/1ZzKyPuBjXZbQz_hsoBLeVKKOz3nIXliP">
+                        Drive Link - Matrix</a>
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------Lab Programs --------------------------------------------------------->
+
+    <div id="lab" class="fraz">
+        <br />
+        <h2 style="font-weight: 100">
+            <center><br />Lab Programs</center>
+        </h2>
+        <div class="container">
+            <div class="fraz-list">
+                <div>
+                    <h3>C Programming</h3>
+                    <ol>
+                        <li>
+                            Array operations
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>
+                            Stack operations
+                            <i class="fa-regular fa-circle-check" style="color: #3ce619"></i>
+                        </li>
+                        <li>Queue operations</li>
+                        <li>Linked List</li>
+                        <li>Binary Search Tree</li>
+                        <li>Graphs</li>
+                        <li>Coming soon</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" href="">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
+
+                <div>
+                    <h3>Java Programming</h3>
+                    <ol>
+                        <li>Coming Soon</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" href="">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="fraz-list">
+                <div>
+                    <h3>Python Programming</h3>
+                    <ol>
+                        <li>Coming Soon</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" href="">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
+
+                <div>
+                    <h3>Angular JS Lab</h3>
+                    <ol>
+                        <li>Coming Soon..</li>
+                    </ol>
+                    <a class="btn-tocontact" onclick="SubmitEvent" target="_blank" href="">
+                        View Solutions</a>
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+</body>
 
 </html>
